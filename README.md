@@ -6,6 +6,8 @@ Nyaay.AI is a cutting-edge legal assistance platform that combines blockchain te
 
 ## Tech Stack
 
+![Editor _ Mermaid Chart-2025-04-25-232648](https://github.com/user-attachments/assets/62013d53-a21e-4a1d-b5e9-76072f5f16d9)
+
 ### Frontend
 
 - React.js with Vite
