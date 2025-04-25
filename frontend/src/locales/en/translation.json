@@ -1,0 +1,149 @@
+{
+  "report": {
+    "title": "Submit Incident Report",
+    "description": "Description of the incident",
+    "jurisdiction": "Jurisdiction/Location",
+    "files": "Upload supporting documents (photos, screenshots, audio)",
+    "submit": "Submit Report",
+    "submitting": "Submitting...",
+    "success": "Report submitted successfully. Your report ID is:",
+    "error": "Error submitting report. Please try again."
+  },
+  "tracker": {
+    "title": "Track Your Report",
+    "enterId": "Enter your report ID",
+    "search": "Search",
+    "status": "Status",
+    "description": "Description",
+    "jurisdiction": "Jurisdiction",
+    "files": "Attached Files",
+    "view": "View Image",
+    "createdAt": "Created At",
+    "noFiles": "No files attached",
+    "errors": {
+      "notFound": "Report not found. Please check your report ID.",
+      "generic": "Error fetching report. Please try again later."
+    }
+  },
+  "legal": {
+    "title": "Legal Guidance Assistant",
+    "jurisdiction": "Your Location",
+    "jurisdictionPlaceholder": "Enter your state/city (e.g., California, Mumbai)",
+    "welcome": "Get Legal Information and Guidance",
+    "examples": "Here are some examples of questions you can ask:",
+    "sampleQuestions": [
+      "What are my rights if I've been a victim of cyberbullying?",
+      "How do I file a police complaint in my area?",
+      "What should I do if I'm being harassed at work?",
+      "What are the steps to get a restraining order?",
+      "What evidence should I collect for my case?"
+    ],
+    "askQuestion": "Type your legal question here...",
+    "send": "Send",
+    "sending": "Getting response...",
+    "error": "Error getting legal guidance. Please try again."
+  },
+  "documents": "Documents",
+  "createDocument": "Create New Document",
+  "documentType": "Document Type",
+  "complaint": "Complaint",
+  "legalLetter": "Legal Letter",
+  "affidavit": "Affidavit",
+  "title": "Title",
+  "jurisdiction": "Jurisdiction",
+  "court": "Court",
+  "caseNumber": "Case Number",
+  "parties": "Parties",
+  "name": "Name",
+  "role": "Role",
+  "address": "Address",
+  "addParty": "Add Party",
+  "create": "Create",
+  "creating": "Creating...",
+  "review": "Review",
+  "reviewing": "Reviewing...",
+  "download": "Download",
+  "completeness": "Completeness",
+  "clarity": "Clarity",
+  "risk": "Risk",
+  "suggestions": "Suggestions",
+  "error": {
+    "fetchingDocuments": "Error fetching documents",
+    "creatingDocument": "Error creating document",
+    "reviewingDocument": "Error reviewing document"
+  },
+  "document": {
+    "title": "Document Title",
+    "type": "Document Type",
+    "content": "Document Content"
+  },
+  "errors": {
+    "fetchDocument": "Failed to fetch document. Please try again.",
+    "saveDocument": "Failed to save document. Please try again."
+  },
+  "common": {
+    "save": "Save",
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Info"
+  },
+  "templates": {
+    "title": "Document Templates",
+    "noTemplates": "No templates available",
+    "create": "Create Template",
+    "createNew": "Create New Document",
+    "edit": "Edit Template",
+    "delete": "Delete Template",
+    "name": "Template Name",
+    "description": "Description",
+    "type": "Type",
+    "jurisdiction": "Jurisdiction",
+    "content": "Template Content",
+    "useTemplate": "Use Template",
+    "filterByType": "Filter by Type",
+    "filterByJurisdiction": "Filter by Jurisdiction",
+    "publicOnly": "Public Templates Only",
+    "public": "Public",
+    "allTypes": "All Types"
+  },
+  "errors": {
+    "fetchingTemplates": "Error fetching templates",
+    "fetchingTemplate": "Error fetching template details",
+    "loadingTemplate": "Error loading template",
+    "creatingTemplate": "Error creating template",
+    "updatingTemplate": "Error updating template",
+    "deletingTemplate": "Error deleting template",
+    "fetchingDocuments": "Error fetching documents",
+    "creatingDocument": "Error creating document",
+    "reviewingDocument": "Error reviewing document"
+  },
+  "navbar": {
+    "reports": "Reports",
+    "tracker": "Tracker",
+    "legalGuidance": "Legal Guidance",
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "invalidPassword": "Password must be at least 6 characters long",
+    "passwordsDontMatch": "Passwords don't match",
+    "somethingWentWrong": "Something went wrong. Please try again.",
+    "networkError": "Network error. Please check your connection.",
+    "unauthorized": "You are not authorized to perform this action",
+    "sessionExpired": "Your session has expired. Please login again."
+  }
+} 

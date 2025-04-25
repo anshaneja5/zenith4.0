@@ -1,0 +1,193 @@
+.demo-wrapper {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+  }
+  
+  .demo-editor {
+    min-height: 400px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    background-color: white;
+  }
+  
+  .rdw-editor-toolbar {
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 0;
+    background-color: #f8f9fa;
+    border-radius: 4px 4px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .rdw-option-wrapper {
+    min-width: 30px;
+    height: 30px;
+    margin: 0;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid #ddd;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rdw-option-wrapper:hover {
+    box-shadow: 0 0 0 1px #ccc;
+    background-color: #f8f9fa;
+  }
+  
+  .rdw-option-active {
+    background-color: #e9ecef;
+    box-shadow: 0 0 0 1px #ccc;
+  }
+  
+  .rdw-dropdown-wrapper {
+    height: 30px;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid #ddd;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .rdw-dropdown-wrapper:hover {
+    box-shadow: 0 0 0 1px #ccc;
+  }
+  
+  .rdw-dropdown-optionwrapper {
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px #ccc;
+    background-color: white;
+    min-width: 150px;
+  }
+  
+  .rdw-colorpicker-modal {
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px #ccc;
+    background-color: white;
+  }
+  
+  .rdw-link-modal {
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px #ccc;
+    background-color: white;
+  }
+  
+  .rdw-embedded-modal {
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px #ccc;
+    background-color: white;
+  }
+  
+  .rdw-image-modal {
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px #ccc;
+    background-color: white;
+  }
+  
+  .rdw-emoji-modal {
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px #ccc;
+    background-color: white;
+  }
+  
+  /* Custom toolbar button styles */
+  .custom-toolbar-button {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custom-toolbar-button:hover {
+    background-color: #f8f9fa;
+    border-color: #ccc;
+  }
+  
+  .custom-toolbar-dropdown {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .custom-toolbar-colorpicker {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  /* Toolbar group styles */
+  .rdw-inline-wrapper,
+  .rdw-block-wrapper,
+  .rdw-fontsize-wrapper,
+  .rdw-fontfamily-wrapper,
+  .rdw-list-wrapper,
+  .rdw-text-align-wrapper,
+  .rdw-colorpicker-wrapper,
+  .rdw-link-wrapper,
+  .rdw-embedded-wrapper,
+  .rdw-emoji-wrapper,
+  .rdw-image-wrapper,
+  .rdw-remove-wrapper,
+  .rdw-history-wrapper {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 4px;
+  }
+  
+  /* IMPORTANT: Add these critical text alignment classes */
+  .public-DraftStyleDefault-textAlignLeft {
+    text-align: left;
+  }
+  
+  .public-DraftStyleDefault-textAlignCenter {
+    text-align: center;
+  }
+  
+  .public-DraftStyleDefault-textAlignRight {
+    text-align: right;
+  }
+  
+  .public-DraftStyleDefault-textAlignJustify {
+    text-align: justify;
+  }
+  
+  /* Improve the alignment buttons in the toolbar */
+  .rdw-text-align-wrapper .rdw-option-wrapper {
+    min-width: 30px;
+  }
+  
+  /* Highlight active alignment buttons better */
+  .rdw-text-align-wrapper .rdw-option-active {
+    background-color: #e2e6ea;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Fix for cursor alignment in the editor */
+  .public-DraftEditor-content {
+    min-height: 380px;
+  }
+  
+  /* Make sure alignment is properly rendered in the editor content */
+  .DraftEditor-editorContainer {
+    position: relative;
+    z-index: 1;
+  }
