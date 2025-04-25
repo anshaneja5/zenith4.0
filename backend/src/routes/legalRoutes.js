@@ -24,11 +24,11 @@ const twitterScraper = new Scraper();
 const speechClient = new speech.SpeechClient({
   credentials: {
     type: "service_account",
-    project_id: "certain-region-457116-k2",
-    private_key_id: "8774c70608f5df1a21d9f8ec77c33f3ceba23f23",
-    private_key: "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5mWUd+P/jl+hA\nPHDNnrwbOdVNEQWSMVzJ10OKfnc45rQa50QmH2EzVxpVjggXMQeOdWJjCbUS968n\nNwOJfJFZqgnzcJCv4TW4mzb+s9aL5D67CKGBqMEXEvjZZvrDyO6ND7cR3ApbjomQ\nSOLoamPx+uzJV1qbxtZ828i3xwZptx0IZ4Zh15/YZZQHtp+f+vPQJDL+zxtJ44E4\nK3FNq4VvGB6mcGwr1zjXEr+jZlxm/OflCSTyviCOx7J3RSg87jWSZrqowpezBD0C\nIRzSEu1ICgpB2dzfloPwC7AjvdPtb+KQLHyi6NhJnAOmlt8wK8TLVK7XPAiieaYR\nbb2MYqNfAgMBAAECggEAW0zRSDhIML52ersAxrWyVTZS7nFUK0FrIsNpL0TdAznC\nGYXwqUxAdZAAnVucMURmMjceahfJYoZDPGg8rjKAEfqqoH2cP1jrI1//YrY28WQb\nU8iAIpdQPTiQ/+k/rHY4m13Csd9rnPR2SWsBbFGBzvSf7L+zC/R5aLx5daZLSk76\nOR2ahd6WGe3krz39NODm0e25HVzQHoKOCC9HuBsRLCMbGQavCqpfCQIfdK9VVts2\nRkX0Ok7/bUQg+/xusfIis+FCMg+dtJqKhkUuwiQZyQQ3EGkylZXVJhrO+64AGJjT\nB3lD8qEHnsxVJS3huh5O3Fx6m8xE0sy6nhoRvAYoOQKBgQDiCSxoSuQLFDNKGjNe\nNe/2+10qzP5tc2ho1X7PjIjCWMK0/tR4YTgWpGRcKbyVCGMO/hnCyP3t8zEJVJLS\nqGAVRa7f7dXkb9QGmhw+XNEm3EyG48FFxaEIX+CNAJGnwSr+0TIspPFbG2ogTxkH\nU6ekQIxnkEXYuz4UPCyiAiXFkwKBgQDSM/NYMB1bemdT5nS+i3LUmNY44uCWn+Yr\n04p2vJRcAep5ObIjWHR6guefFGGfG9TMRcTbaE5GUIE+Hi7YziBlgrkf09oY2JMa\n2oaw7nT0FDO7ygYcvreQMY40Y34G6RNZwhqkxIozAf9SecNtoXwXX4zuD7IG9+tt\nyqPeBc/KhQKBgQCCTW+AH8weZuK6UShToxxWcMlgpxP03JbP+GNGGmmsP6be2Bh7\n3O+MffAtARJph5AzUGBhXaSky5D1JAAP2GirWqRZCq5HJgBAXg7yFGet00l6aUk9\ng5Q1U7ALGMzevAihJM+b1Ood70vanD59bsgxc9R8zzq0mhxLZfUE3+AOaQKBgH5W\nBPLC8FITzliJ0S7YpyqJtW85RNyiu/cpTDYy/0QRTriPabZ+qnsbhFSDLm0vkAU6\nBagNF8aBCjyobWWW9betCtDLRnDacgeYwY1DtH0iSzmZoXTTV4ZNkneAOLW0jhHL\nbLINAjbIA4mxbzjL7sYpgo1uV4SCqzgwq658dbf1AoGAC3d6BgtLlvwhSKrg5QTd\nOrFtvqkE5Si9iYFJJWMVnJohj/Dw3HMAagyKN/nVm56w3Ks/f8pwMmJT/9t2vNwj\nrpYOYQ8QCmPCNX6CegR7GCeQRkE4GmfmFcg9ERwgJ8uHIqlM+58dC1JbA31u/5ik\npsJbTMs+E2zY0NMIqOqMPo4=\n-----END PRIVATE KEY-----\n",
-    client_email: "ansh-aneja@certain-region-457116-k2.iam.gserviceaccount.com",
-    client_id: "118300326605533581535",
+    project_id: process.env.GOOGLE_PROJECT_ID,
+    private_key_id: process.env.GOOGLE_PRIVATE_KEY_ID,
+    private_key: process.env.GOOGLE_PRIVATE_KEY.replace(/\\n/g, '\n'),
+    client_email: process.env.GOOGLE_CLIENT_EMAIL,
+    client_id: process.env.GOOGLE_CLIENT_ID,
     auth_uri: "https://accounts.google.com/o/oauth2/auth",
     token_uri: "https://oauth2.googleapis.com/token",
     auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/v1/certs",
